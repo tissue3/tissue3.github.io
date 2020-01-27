@@ -1,6 +1,6 @@
-# Zhijing's Personal Website ([template](https://startbootstrap.com/template-overviews/clean-blog-jekyll/))
+# Zhijing's Personal Website
 
-This is [my personal website](tissue3.github.io) forked from this [template](https://startbootstrap.com/template-overviews/clean-blog-jekyll/).
+This is [my personal website](https://tissue3.github.io) forked from this [template](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll).
 
 ## Installation & Setup
 
