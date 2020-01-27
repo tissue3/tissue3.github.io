@@ -1,14 +1,6 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/template-overviews/clean-blog-jekyll/) - Official Jekyll Version
+# Zhijing's Personal Website ([template](https://startbootstrap.com/template-overviews/clean-blog-jekyll/))
 
-[Clean Blog Jekyll](http://startbootstrap.com/template-overviews/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
-
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
-
-## Preview
-
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
-
-**[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
+This is [my personal website](tissue3.github.io) forked from this [template](https://startbootstrap.com/template-overviews/clean-blog-jekyll/).
 
 ## Installation & Setup
 
