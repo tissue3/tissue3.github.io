@@ -8,7 +8,7 @@ layout: default
     <style>
       body{ 
         background-image: url('img/IMG_7051.jpg');
-        background-size: 40%;
+        background-size: auto 90vh;
         background-position: top left;
         background-repeat: no-repeat;
         background-color:rgb(200,200,200);
@@ -20,16 +20,19 @@ layout: default
 {% endif %}
 
 
-    <div class="container">
+    <div class="container" style="height:90vh">
       <div class="overlay"></div>
 
       <div class="container">
         <div class="row">
-          <div class="col-sm-5" style="padding: 50vh 0 0 0 "> 
-            <h2 style="color:white;"> Zhijing Li's website </h2> 
+          <div class="col-sm-2 pull-left" style="padding: 25% 0 0 0;"> 
+            <h3 style="color:white; text-align:center"> Zhijing Li's website </h3>
           </div>
-          <div class="col-sm-7" style="height: 92vh; padding: 100px 0 150px">
-            {{ content }}
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-7 pull-right" style="background-color: rgba(255,255,255,0.5);  background-size:auto;  margin: 100px 0 0 0">
+            <div class="container">
+              {{ content }}
+            </div>
           </div>
         </div>
       </div>
