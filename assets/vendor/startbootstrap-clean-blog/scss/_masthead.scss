@@ -1,11 +1,14 @@
 // Styling for the masthead
 header.masthead {
+
   // TIP: Background images are set within the HTML using inline CSS!
-  margin-bottom: 50px;
+  //margin-bottom: 60px;
   background: no-repeat center center;
+  //background:linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+  //background-position: left top, right top;
   background-color: $gray-600;
   background-attachment: scroll;
-  position: relative;
+  background-position: relative;
   @include background-cover;
   .overlay {
     position: absolute;
@@ -14,19 +17,26 @@ header.masthead {
     height: 100%;
     width: 100%;
     background-color: $gray-900;
-    opacity: 0.5;
+    opacity: 0;
   }
   .page-heading,
-  .post-heading,
-  .site-heading {
+  .post-heading {
     padding: 200px 0 150px;
     color: white;
     @media only screen and (min-width: 768px) {
       padding: 200px 0;
     }
   }
-  .page-heading,
-  .site-heading {
+  .home-heading {
+    width: 20%;
+    padding: 200px 0 150px;
+    color: white;
+    @media only screen and (min-width: 768px) {
+      padding: 200px 0;
+    }
+  }
+  .page-heading, 
+  .home-heading {
     text-align: center;
     h1 {
       font-size: 50px;

@@ -4,33 +4,36 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
+  <div class="masthead">
+    <style>
+      body{ 
+        background-image: url('img/IMG_7051.jpg');
+        background-size: 40%;
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-color:rgb(200,200,200);
+      }
+    </style></div>
+
+{% else %}
+  <div class="masthead">
+{% endif %}
+
+
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
+      <div class="overlay"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5" style="padding: 50vh 0 0 0 "> 
+            <h2 style="color:white;"> Zhijing Li's website </h2> 
+          </div>
+          <div class="col-sm-7" style="height: 92vh; padding: 100px 0 150px">
+            {{ content }}
           </div>
         </div>
       </div>
     </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-
-
-      </div>
-    </div>
   </div>
+
+  

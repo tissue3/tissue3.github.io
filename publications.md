@@ -1,13 +1,9 @@
 ---
 layout: page
 title: Publications
-background: '/img/antelope.jpg'
+background: '/img/IMG_7052.jpg'
 ---
-### Under Submission
-
-
-
-### Published
+### Publications
 
 - Zhijing Li, Christopher De Sa, Adrain Sampson. Quantization Table Redesign for the JPEG Compression Algorithm Targeting Classification Neural Networks. to appear at *Resource-Constrained Machine Learning Workshop of the Conference on Systems and Machine Learning (ReCoML@SysML2020)* [PDF](/pdf/JPEGNN.pdf)
 - Rachit Nigam, Sachille Atapattu, Samuel Thomas, Zhjing Li, Theodore Bauer, Yuwei Ye, Apurva Koti,  Adrian Sampson, Zhiru Zhang. Predictable Accelerator Design with Time-Sensitive Affine Types. to appear at *the ACM SIGPLAN Conference on Programming Language Design and
