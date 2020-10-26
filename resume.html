@@ -3,7 +3,12 @@
     <title>Title of the document</title>
   </head>
   <body>
-    <iframe src="/pdf/Zhijing_Li_CV_Cornell.pdf" width="100%" height="100%">
+    <iframe id="theFrame" src="/pdf/Zhijing_Li_CV_Cornell.pdf"  width="100%" height="100%">
+    	<script>
+    		document.getElementById("theFrame").contextWindow.onload = function(){
+    			this.document.getElementByTagName("img")[0].style.width="100%";
+    		};
+    	</script>
     </iframe>
   </body>
 </html>
